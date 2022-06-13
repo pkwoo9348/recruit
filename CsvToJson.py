@@ -32,6 +32,5 @@ for row in reader:
         jsonfile.write('\n')
     i= i + 1
     
-jsonfile.pop(',')
 jsonfile.write(']')
 
